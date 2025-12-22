@@ -1,0 +1,27 @@
+Certain set of rules, everythign needs to go by step by step.
+Network Protocols ---> set of rules/regulations set up to commmunicate over a network. 
+
+Packets : 
+In order to share data, we cant send big chunk of data over the network, 
+
+we divide data to be sent into smaller chunks or packets.
+
+Address: 
+Sending msgs or packets over the network requires the destination details of the end system, this detail uniquely identifies the system. 
+this is called IP Address
+
+Ports: 
+Any machine coule be running many network apps, in order to distinguish these apps for receiving messages, we use ports (port number). 
+it helps to get the packets to specific process or location.
+
+IP address + Port  ---> Socket 
+
+Every process has 16 bit port number (0- 2^16) ->65535 
+
+0-1023 --> well known port (reserved for apps)
+
+1024 - 49152 -> Registered ports (THey are used by specific , potentially proprietary 3rd party apps/ process that are known but not system defined. 
+SQL server --> 1433
+
+
+491542 - 65535 --> dynamic ports. (future purposess )
