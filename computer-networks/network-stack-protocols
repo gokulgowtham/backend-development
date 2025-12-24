@@ -1,0 +1,37 @@
+2 MAjor standards --> OSI (7 layers)
+TCP/IP (5 layers)
+
+
+OSI protocol stack 
+1. Application -> email service, chat service. 
+2. Presentation -> how data is represented, compressed, encrypted.
+3. Session -> any user session mgmt
+4. Transport layer -> divides big chunk of data to small chunks and amnaging these chunks. 
+5. Network layer -> how routing of packets will be done. 
+6. Data layer -> Error / flow controll. multiplexing/ demultiplexing, handle addressng. 
+7. Physica layer  -> cable/satellite connections. 
+
+TCP/IP Protocol stack (5 Layers):
+1. Application (3 combined in to 1 )
+2. Transporrt layer
+3. Network layer 
+4. Data Layer 
+5. Phsycial 
+
+
+
+Application Layer 
+
+Roles:
+1. Writing / Providing data off to the network. 
+2. Reading and writing the data from the user. 
+3. Contains applications that helpes user to interact on network. 
+
+
+Client / Server Architecture. 
+2 Level architecture, 
+Servers -> This Process controls access to a centralized resource pr service such as website/webapp. 
+
+P2P architecture, multiple end systems are connected to each other (decentralized system)
+
+Hybrid -> combination of client-server and P2P architecuture. 
