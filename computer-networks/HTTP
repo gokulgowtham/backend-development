@@ -1,0 +1,35 @@
+Hypertext transfer protocol(HTTP)
+
+--> OBjects : Webpages are the main objects that containes other objects. eg: mp3 fies, png, JPG< JPEG. 
+
+
+URL -> Uniform Resource Locator
+1. Protocol (Http(s))
+2.hostname("flipkart.com")
+3. Arguments. 
+
+First msg -->> http req
+seocnda msg --> http respnse. 
+
+HTTP is a statekess protocol--> server do not store any information abot thte client
+
+lot of application layer protocols depend on on lower elevel protocols of transport layer. 
+
+Transport layer --> 2 Main protocls 1. TCP , 2. UDP
+
+HTTP depends on TCP. 
+
+2 types of HTTP
+1. Persistent HTTP - Websocket 
+2. Non Persistent HTTP - connection breaks after 1 cycle of request / response. 
+
+
+HTTP methods
+Req and Resp Messages. 
+Any HTTP message are plaina ASCII text. 
+Host 
+Method. 
+StatusCode
+Referral Policy
+
+
