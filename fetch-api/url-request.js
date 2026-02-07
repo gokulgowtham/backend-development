@@ -22,5 +22,6 @@ const urlString = "https://jsonplaceholder.typicode.com/users";
     console.log('response.headers: ', response.headers);
     console.log('response.body: ', response.body);
     console.log('response.json: ', response.json());
-    console.log('response.text: ', response.text());
+    console.log("response.text: ", response.text());
+    
  }
